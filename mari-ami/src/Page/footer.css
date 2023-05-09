@@ -50,3 +50,11 @@ line-height: 33px;
 letter-spacing: 0.05em;
 color: #1E1E1E;
 }
+
+.Icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -450px;
+    margin-right: -350px;
+}

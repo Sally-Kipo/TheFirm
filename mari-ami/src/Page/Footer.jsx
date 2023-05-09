@@ -1,4 +1,9 @@
 import "./footer.css";
+import Docimg from '../image/first.png';
+import Docuimg from '../image/second.png';
+import Documimg from '../image/third.png';
+import Documeimg from '../image/four.png';
+import Documenimg from '../image/five.png';
 
 
 function Footer(){
@@ -15,8 +20,16 @@ function Footer(){
                    <div>
                     <h5 className="Jenny">Jenny Wilson | Digital Agency</h5>
                    </div>
+                   
 
             </div>
+            <div className="Icon">
+                    <img className="first" src={Docimg} alt="loadin"/>
+                    <img className="second" src= {Docuimg} alt="loadin"/>
+                    <img className="third" src= {Documimg} alt="loadin"/>
+                    <img className="four" src= {Documeimg} alt="loadin"/>
+                    <img className="five" src= {Documenimg} alt="loadin"/>
+                   </div>
 
         </div>
     )
