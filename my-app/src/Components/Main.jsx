@@ -1,28 +1,46 @@
-import React from 'react';
+
 import './main.css';
+import React from 'react';
 import image1 from '../../src/images/image1.jpg';
 import image2 from '../../src/images/image2.jpg';
 import image3 from '../../src/images/image3.jpg';
+import { useState } from 'react';
+
 
 function DivItem(props) {
-    return (
-      <div className="div-item">
-        <h1>{props.title}</h1>
-      </div>
-      
-    );
+  const [isHovered, setIsHovered] = useState(false);
+
+  function handleMouseEnter() {
+    setIsHovered(true);
   }
 
-function DivContainer() {
-    return (
-      <div className="div-container">
-        <DivItem title="Market Research" />
-        <DivItem title="Branding" />
-        <DivItem title="Reporting" />
-        <DivItem title="Data Analysis" />
-      </div>
-    );
+  function handleMouseLeave() {
+    setIsHovered(false);
   }
+
+  return (
+    <div
+      className="div-item"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      style={{ background: isHovered ? 'yellow' : '#FFFFFF' }}
+    >
+      <h1>{props.title}</h1>
+    </div>
+  );
+}
+
+function DivContainer() {
+  return (
+    <div className="div-container">
+      <DivItem title="Market Research" />
+      <DivItem title="Branding" />
+      <DivItem title="Reporting" />
+      <DivItem title="Data Analysis" />
+    </div>
+  );
+}
+
 
   function Main () {
     return (

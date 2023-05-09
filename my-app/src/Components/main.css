@@ -101,7 +101,7 @@
       .div-item {
         width: 180px;
         height: 48px;
-        background: #F6F6F6;
+        background: #FFFFFF;
         border: 2px;
         box-shadow: 0px 10px 40px -12px rgba(196, 196, 196, 0.35);
         border-radius: 5px;
@@ -112,6 +112,7 @@
 
 
       }
+
       
       .div-item h1 {
         width: 153px;
@@ -125,6 +126,7 @@
         color: #C4C4C4;
         text-align: center;
       }
+
       
       
 
