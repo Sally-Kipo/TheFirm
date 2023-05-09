@@ -8,16 +8,16 @@ function Header (){
         <header>
             <div className="flex">
             <div>
-            <button>get in tuch</button>
+            <button>Get in Touch</button>
         </div>
         <div>
             <ul>
-                <li>home</li>
-                <li>solution</li>
-                <li>casec</li>
-                <li>about as</li>
-                <li>blog</li>
-                <li>contact as</li>
+                <li>Home</li>
+                <li>Solutions</li>
+                <li>Cases</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
             </ul>
             
         </div>
