@@ -94,23 +94,21 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 50px;
         width: 100%;
       }
       
       .div-item {
         width: 180px;
         height: 48px;
-        background: #c93939;
+        background: #F6F6F6;
         border: 2px;
         box-shadow: 0px 10px 40px -12px rgba(196, 196, 196, 0.35);
         border-radius: 5px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        gap: 10%;
         align-items: center;
-        margin-right: 100px;
-        margin-left: 100px;
-    
-
 
 
       }
