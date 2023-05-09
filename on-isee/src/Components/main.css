@@ -1,0 +1,175 @@
+*{
+   top: 0;
+}
+  
+.bgcolor{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 1020px;
+    
+}
+.case{
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito";
+    font-size: 30px;
+    
+    
+}
+.lorem {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 864px;
+    margin-left: 350px;
+    font-size: 18px;
+    line-height: 176%;
+    font-family: "Lora";
+    letter-spacing: 0.02%;
+    font-style: normal;
+    font-weight: 400px;
+
+}
+.down {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+    gap: 20px;
+    margin-left: 200px;
+
+  
+}
+.side{
+   display: flex;
+   flex-direction: row;
+
+}
+.office{
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 13px;
+
+}
+.simply{
+    width: 342px;
+    height: 41px;
+    font-weight: 700px;
+    font-family: "Nunito";
+    line-height: 41px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.dummy{
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 176%;
+    letter-spacing: 0.02em;
+    margin-top: 15px;
+}
+
+button{
+    width: 157px;
+    height: 48px;
+    background-color:  #FACA10;
+    border-radius: 5px;
+    border-color: #F2F2F2;
+}
+
+    
+    
+
+
+.wt{
+    width: 497px;
+    height: 441px;
+    background-color: rgb(150, 150, 154);
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 190px;
+  
+
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 44px;
+    line-height: 0.002em;
+    letter-spacing: 0.002em;
+}
+.white{
+    width: 340px;
+    height: 560.78px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin: 50px;
+}
+.boxx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+   
+}
+.fl p{
+    font-family: "Lora";
+    font-weight: 400px;
+    font-size: 17px;
+    line-height: 29.92px;
+    letter-spacing: 2%;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.fl h1 {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.line{
+
+    width: 319px;
+    height: 0px;
+    border: 1px solid rgb(172, 168, 168);
+    margin-left: 10px;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+   
+}
+.f p {
+    margin-top: 10px;
+    width: 20px;
+}
+.f img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.time{
+    font-family: "Nunito";
+    font-weight: 400px;
+    font-size: 10px;
+    line-height: 13.64;
+    color: #B0B0B0;
+     margin-left: 150px;
+     margin-top: -70px;
+}
+.btt button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
