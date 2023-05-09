@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+ }
+  
+ .whitebox {
+    width: 340px;
+    height: 560.78px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin: 50px;
+  }
+  .line{
+
+    width: 319px;
+    height: 0px;
+    border: 1px solid rgb(172, 168, 168);
+    margin-left: 10px;
+}
+.icon{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.Alexliones{
+  margin-left: 50px;
+  margin-top: -40px;
+  width: 20px;
+}
+.time{
+  margin-top: -165px;
+  font-family: "Nunito";
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 13.64;
+  color: #B0B0B0;
+}
+.btt{
+  margin-top: -80px;
+}
+.style h1{
+  margin-left: 10px;
+}
+.style p {
+  margin-left: 10px;
+}
