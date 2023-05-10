@@ -5,6 +5,9 @@ import Images from '../image/back.png';
 
 
 function Main (){
+    function pressOnButton(){
+
+    }
     return (
         <div className="full">
 <div className="left">
@@ -19,8 +22,8 @@ function Main (){
         and typesetting industry. Lorem Ipsum has been
         the industry's standard dummy</p>
         </div>
-        <div>
-            <button className="Get">Get in Touch</button>
+        <div className="Get">
+            <button onClick={pressOnButton}>Get in Touch</button>
         </div>
         </div>
         <div className="pic">
