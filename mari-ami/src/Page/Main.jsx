@@ -5,6 +5,7 @@ import Images from '../image/back.png';
 
 
 function Main (){
+    
     return (
         <div className="full">
 <div className="left">

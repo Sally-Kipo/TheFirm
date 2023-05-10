@@ -3,12 +3,15 @@ import Image from "../image/Mask Group.png"
 
 
 function Header (){
+    function pressOnButton(){
+console.log(123);
+    }
     return (
 
         <header>
             <div className="flex">
-            <div>
-            <button>Get in Touch</button>
+            <div className="div-item">
+            <button onClick={pressOnButton}>Get in Touch</button>
         </div>
         <div>
             <ul>
