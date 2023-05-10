@@ -6,10 +6,12 @@ import Images from '../image/back.png';
 
 function Main (){
     
+
+    
     return (
         <div className="full">
 <div className="left">
-        <div>
+<div>
             <h1 className="TheFirm">
             Get Bussiness Solutions with TheFirm.
             </h1>
